@@ -1,0 +1,74 @@
+
+body {
+	background-color: rgb(109, 148, 164);
+	color: white;
+	font-size: 1em;
+	font-family: "helvetica Neue";
+}
+
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+	text-align: center;
+	
+}
+
+.masthead {
+	padding: 10em 0;
+	background-image: url('beach.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: solid 10em white;
+}
+
+.masthead-intro {
+	margin-bottom: 0.1em;
+	font-family: "Gentium Book Basic";
+	font-size: 2em;
+}
+
+.masthead-heading {
+	margin-top: -0.2em;
+	font-family: "helvetica Neue";
+	font-weight: bold;
+	font-size: 6em;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+}
+
+.intro-sec > p,
+.location-sec > p,
+.content-footer > p{
+	font-weight: 400;
+	letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+	font-family: "times new roman", serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	/* layout*/
+	margin: 2em 0 1em 0;
+}
+
+
+.content-footer,
+.intro-sec,
+.location-sec,
+.questions-sec {
+	max-width: 38em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+}
+
+
+
+.social > li {
+	display: inline-block;
+}
+
+.content-footer > p {
+	color: black;
+}
+
